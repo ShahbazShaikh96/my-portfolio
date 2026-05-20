@@ -28,6 +28,40 @@ The portfolio intentionally avoids the H1B sponsor workbook, USCIS visa-pathways
 
 Open `index.html` in a browser, or serve the folder with any static server.
 
+## How To Edit
+
+Most edits happen in three files:
+
+- `index.html` controls the page sections, hero text, navigation, and contact copy.
+- `script.js` controls the project list, project summaries, business questions, decision value, tags, links, and images.
+- `styles.css` controls layout, colors, spacing, fonts, and responsive design.
+
+For project updates, edit the `projects` array in `script.js`. Each project has:
+
+- `title`
+- `repo`
+- `category`
+- `language`
+- `updated`
+- `url`
+- `image`
+- `summary`
+- `businessQuestion`
+- `decisionValue`
+- `tags`
+- `featured`
+
+After editing locally:
+
+```bash
+git status
+git add README.md index.html script.js styles.css
+git commit -m "Update portfolio"
+git push
+```
+
+GitHub Pages will redeploy automatically after each push to `main`.
+
 ## Deploy
 
 This can be deployed directly with GitHub Pages from the repository root.
