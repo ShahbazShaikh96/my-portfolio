@@ -69,7 +69,7 @@ const projects = [
     summary:
       "Two-stage risk modeling workflow for loan default classification and loss severity prediction using multiple modeling approaches.",
     businessQuestion: "Which borrowers are most likely to default, and how severe could the expected loss be?",
-    decisionValue: "Demonstrates predictive framing, model comparison, and risk segmentation for financial decision support.",
+    decisionValue: "Demonstrates AI/ML-ready problem framing, model comparison, and risk segmentation for financial decision support.",
     tags: ["Credit Risk", "Loss Severity", "XGBoost", "Random Forest"],
     featured: true,
   },
@@ -87,8 +87,8 @@ const projects = [
     summary:
       "Contextual advertising prototype exploring privacy-first ad relevance without relying on user-level tracking.",
     businessQuestion: "Can ad targeting remain relevant without collecting user-level tracking data?",
-    decisionValue: "Connects privacy constraints to product strategy, contextual content signals, and monetization design.",
-    tags: ["AdTech", "Privacy", "Contextual Signals", "Prototype"],
+    decisionValue: "Connects privacy constraints to product strategy, contextual content signals, and future AI-assisted ad decisioning potential.",
+    tags: ["AdTech", "Privacy", "Contextual Signals", "AI Potential"],
     featured: false,
   },
   {
@@ -159,8 +159,8 @@ const projects = [
     summary:
       "Consolidates applied ML work into a broader modeling portfolio, showing experimentation across prediction problems.",
     businessQuestion: "How can model selection and experimentation be used to solve different business prediction tasks?",
-    decisionValue: "Shows breadth across modeling workflows, evaluation thinking, and applied analytical problem solving.",
-    tags: ["Modeling", "Experimentation", "Evaluation", "Prediction"],
+    decisionValue: "Shows breadth across AI/ML workflows, evaluation thinking, and applied analytical problem solving.",
+    tags: ["AI/ML", "Experimentation", "Evaluation", "Prediction"],
     featured: false,
   },
   {
@@ -177,8 +177,8 @@ const projects = [
     summary:
       "Advanced machine learning coursework covering sentiment analysis, CNN transfer learning, time-series forecasting, embeddings, and efficient classification workflows.",
     businessQuestion: "How can different deep learning approaches be compared before they are trusted for prediction or decision support?",
-    decisionValue: "Demonstrates model comparison, validation discipline, and clear documentation across multiple predictive tasks.",
-    tags: ["Jupyter", "Deep Learning", "Forecasting", "Validation"],
+    decisionValue: "Demonstrates neural-network exposure, model comparison, validation discipline, and clear documentation across multiple predictive tasks.",
+    tags: ["Neural Networks", "Deep Learning", "Forecasting", "Validation"],
     featured: true,
   },
   {
@@ -195,7 +195,7 @@ const projects = [
     summary:
       "Coursework repository covering data preprocessing, predictive modeling, neural-network practice, SVM work, and model evaluation using real-world datasets.",
     businessQuestion: "How can messy real-world data be prepared, modeled, and evaluated before being used for decision support?",
-    decisionValue: "Shows applied data-mining practice across preprocessing, model comparison, evaluation, and prediction-oriented reporting.",
+    decisionValue: "Shows applied data-mining practice across preprocessing, neural-network practice, model comparison, evaluation, and prediction-oriented reporting.",
     tags: ["Data Mining", "SVM", "Neural Networks", "Model Evaluation"],
     featured: true,
   },
@@ -208,7 +208,7 @@ const projects = [
     url: "https://github.com/ShahbazShaikh96/Quantitaive-Management-Modelling-Projects",
     links: [
       { label: "Case Study", url: "case-studies/qmm-production-optimization.html" },
-      { label: "GitHub", url: "https://github.com/ShahbazShaikh96/Quantitaive-Management-Modelling-Projects/tree/main/Assignment%204%20-%20QMM" },
+      { label: "GitHub", url: "https://github.com/ShahbazShaikh96/Quantitaive-Management-Modelling-Projects/tree/main/01_Product_Mix_Profit_Maximization_LP" },
     ],
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80",
     summary:
@@ -219,7 +219,7 @@ const projects = [
     featured: false,
   },
   {
-    title: "AED Distribution Cost Optimization",
+    title: "Production & Shipping Cost Optimization",
     repo: "Quantitaive-Management-Modelling-Projects",
     category: "Optimization",
     language: "R / Linear Programming",
@@ -227,13 +227,13 @@ const projects = [
     url: "https://github.com/ShahbazShaikh96/Quantitaive-Management-Modelling-Projects",
     links: [
       { label: "Case Study", url: "case-studies/qmm-distribution-optimization.html" },
-      { label: "GitHub", url: "https://github.com/ShahbazShaikh96/Quantitaive-Management-Modelling-Projects/tree/main/Assignment%206%20-%20QMM" },
+      { label: "GitHub", url: "https://github.com/ShahbazShaikh96/Quantitaive-Management-Modelling-Projects/tree/main/02_Production_Shipping_Cost_Minimization_LP" },
     ],
     image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80",
     summary:
-      "Transportation optimization model for Heart Start that determines the lowest-cost AED shipment plan from plants to wholesalers.",
-    businessQuestion: "How should shipments be routed from production plants to wholesalers to minimize total production and shipping cost?",
-    decisionValue: "Creates a cost-minimizing allocation plan that satisfies customer demand while respecting plant capacity.",
+      "Linear programming model that determines the lowest-cost production and shipping plan from plants to wholesalers.",
+    businessQuestion: "How should production and shipping be planned to minimize total cost while satisfying capacity and demand constraints?",
+    decisionValue: "Creates a cost-minimizing plan that satisfies demand while respecting production and shipping constraints.",
     tags: ["Transportation Model", "Cost Minimization", "Supply Chain", "R"],
     featured: false,
   },
@@ -313,10 +313,9 @@ focusCards.forEach((card) => {
 
 const roles = [
   "Programmatic & Analytics Professional",
-  "Business Analytics Graduate Student",
-  "Predictive Analytics Builder",
+  "Machine Learning Practitioner",
   "BI Dashboard Builder",
-  "AI-Driven AdTech Thinker",
+  "AI Automation Explorer",
 ];
 
 let roleIndex = 0;

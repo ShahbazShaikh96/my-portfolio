@@ -5,7 +5,7 @@ Static, LinkedIn-ready business analytics portfolio generated from selected publ
 The site is written for recruiters and hiring managers who want to quickly understand:
 
 - programmatic advertising and AdTech operations experience
-- machine learning, predictive analytics, and optimization evidence
+- AI/ML coursework, neural-network practice, predictive analytics, and optimization evidence
 - the business question behind each project
 - the analytical approach used
 - the decision value of the output
@@ -26,7 +26,7 @@ The site is written for recruiters and hiring managers who want to quickly under
 - `contextual-ad-network`
 - `sshaikh7_AdvanceMachineLearning`
 
-The portfolio intentionally curates selected repositories into employer-ready project stories. Coursework repositories are included when they show relevant analytics, modeling, or dashboard-building skills.
+The portfolio intentionally curates selected repositories into employer-ready project stories. Coursework repositories are included when they show relevant analytics, AI/ML modeling, neural-network practice, automation-ready workflows, or dashboard-building skills.
 
 The NYFS live dashboard is linked at `https://nyfs-web.onrender.com/`. `NYC-Restaurant-Food-Safety-Dashboard` is treated as an earlier prototype; `nyfs-dashboard` is the maintained dashboard project.
 
