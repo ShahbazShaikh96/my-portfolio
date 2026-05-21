@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AED Distribution Optimization | Shahbaz Shaikh</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <main class="case-study">
+      <a class="case-back" href="../index.html#projects">Back to portfolio</a>
+      <p class="eyebrow">Optimization Case Study</p>
+      <h1>AED Distribution Cost Optimization</h1>
+      <p class="hero-lede">
+        A transportation linear programming model for Heart Start that selects the lowest-cost AED
+        shipment plan from two plants to three wholesalers while satisfying demand and capacity limits.
+      </p>
+      <div class="case-actions">
+        <a class="primary-button" href="https://github.com/ShahbazShaikh96/Quantitaive-Management-Modelling-Projects/tree/main/Assignment%206%20-%20QMM" target="_blank" rel="noreferrer">GitHub Evidence</a>
+      </div>
+
+      <section class="case-grid">
+        <article>
+          <h2>Business Question</h2>
+          <p>How should shipments be routed to minimize total production and transportation cost?</p>
+        </article>
+        <article>
+          <h2>Decision Value</h2>
+          <p>Provides a cost-minimizing allocation plan that satisfies wholesaler demand while balancing plant capacity.</p>
+        </article>
+      </section>
+
+      <section class="case-panel">
+        <h2>Model Structure</h2>
+        <ul>
+          <li>Decision variables: units shipped from each plant to each wholesaler.</li>
+          <li>Objective: minimize production plus shipping cost for all routes.</li>
+          <li>Constraints: plant supply capacity and wholesaler demand fulfillment.</li>
+          <li>Tooling: R, lpSolve, knitr.</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

@@ -6,12 +6,12 @@
     <title>Shahbaz Shaikh | Business Analytics Portfolio</title>
     <meta
       name="description"
-      content="Business analytics portfolio of Shahbaz Shaikh: dashboards, predictive analytics, customer insights, risk modeling, and decision-support projects."
+      content="Portfolio of Shahbaz Shaikh: programmatic advertising, business analytics, marketing analytics, dashboards, data engineering, and predictive analytics projects."
     />
-    <meta property="og:title" content="Shahbaz Shaikh | Business Analytics Portfolio" />
+    <meta property="og:title" content="Shahbaz Shaikh | Programmatic, ML & Business Analytics Portfolio" />
     <meta
       property="og:description"
-      content="Dashboards, predictive analytics, customer insights, risk modeling, and decision-support projects with GitHub evidence."
+      content="Programmatic advertising, machine learning coursework, business analytics, dashboards, optimization models, and data projects."
     />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://avatars.githubusercontent.com/u/182519014?v=4" />
@@ -22,7 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=4" />
   </head>
   <body>
     <header class="site-header">
@@ -31,7 +31,9 @@
         <span>Shahbaz Shaikh</span>
       </a>
       <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#home">Home</a>
         <a href="#work">Value</a>
+        <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
@@ -41,70 +43,150 @@
 
     <main>
       <section class="hero" id="home">
+        <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
         <div class="hero-copy">
-          <p class="eyebrow">Business Analyst • Data Analyst • Decision Intelligence</p>
-          <h1>Turning business questions into clear, data-backed decisions.</h1>
+          <p class="welcome-badge">Welcome to my Portfolio</p>
+          <p class="eyebrow">Programmatic Advertising • Machine Learning • Business Analytics</p>
+          <h1>Hi! I'm Shahbaz <span id="typedRole">Programmatic Analyst</span></h1>
           <p class="hero-lede">
-            I am Shahbaz Shaikh. I build analytics dashboards, predictive models, and insight
-            stories that help teams understand risk, customer behavior, operational performance,
-            and growth opportunities.
+            I connect real programmatic advertising experience with graduate-level business
+            analytics, machine learning coursework, and dashboard/product thinking. My work sits
+            between media operations, predictive modeling, optimization, and AI-driven AdTech
+            systems.
           </p>
           <div class="hero-actions">
             <a class="primary-button" href="#projects">Review Portfolio</a>
             <a class="secondary-button" href="https://github.com/ShahbazShaikh96?tab=repositories" target="_blank" rel="noreferrer">Verify on GitHub</a>
           </div>
         </div>
-        <div class="hero-panel" aria-label="Portfolio summary">
+        <div class="hero-visual" aria-label="Analytics and AdTech portfolio visual">
           <img
-            class="avatar"
-            src="https://avatars.githubusercontent.com/u/182519014?v=4"
-            alt="GitHub avatar for Shahbaz Shaikh"
+            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1300&q=80"
+            alt="Analytics dashboard on a laptop representing business intelligence and AdTech reporting"
           />
-          <div class="signal-grid">
-            <div>
-              <strong>14</strong>
-              <span>public repositories reviewed</span>
-            </div>
-            <div>
-              <strong>10</strong>
-              <span>employer-ready project stories</span>
-            </div>
-            <div>
-              <strong>4</strong>
-              <span>business analysis focus areas</span>
-            </div>
+          <div class="visual-caption">
+            <span>AdTech + Analytics</span>
+            <strong>Campaign signals, customer behavior, and predictive insight.</strong>
           </div>
         </div>
       </section>
 
       <section class="section intro-band" id="work">
         <div class="section-heading">
-          <p class="eyebrow">Business Value</p>
-          <h2>What employers can evaluate quickly.</h2>
+          <p class="eyebrow">Portfolio Focus</p>
+          <h2>Three evidence tracks behind my work.</h2>
+          <p class="section-lede">
+            Instead of repeating my resume, this portfolio is organized around the work I want
+            employers to inspect: advertising systems knowledge, machine learning and optimization
+            projects, and business intelligence products that turn raw data into decisions.
+          </p>
         </div>
-        <div class="proof-grid">
-          <article>
+        <div class="focus-grid">
+          <a class="focus-card" href="#experience">
             <span>01</span>
-            <h3>Problem framing</h3>
-            <p>Each project starts from a business question, not from a tool or notebook.</p>
-          </article>
-          <article>
+            <h3>Programmatic operations</h3>
+            <p>CTV, display, DOOH, campaign delivery, pacing, troubleshooting, and reporting workflows.</p>
+          </a>
+          <a class="focus-card" href="#projects" data-focus-filter="ML & Predictive Analytics">
             <span>02</span>
-            <h3>Insight delivery</h3>
-            <p>Dashboards, KPIs, models, and summaries are positioned around decisions they support.</p>
-          </article>
-          <article>
+            <h3>ML and optimization</h3>
+            <p>Credit risk modeling, customer analytics, linear programming, prediction, and model evaluation.</p>
+          </a>
+          <a class="focus-card" href="#projects" data-focus-filter="BI & Dashboards">
             <span>03</span>
-            <h3>Technical proof</h3>
-            <p>Every project links back to GitHub so recruiters can inspect the implementation.</p>
+            <h3>BI and data products</h3>
+            <p>Dashboards, case-study pages, live data products, and stakeholder-ready analytical storytelling.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="section experience-section" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Professional Experience</p>
+          <h2>Experience, analytics training, and project evidence in one story.</h2>
+        </div>
+        <div class="experience-layout">
+          <article class="experience-card">
+            <div class="experience-topline">
+              <div>
+                <h3>Associate Programmatic Account Manager</h3>
+                <p class="role-meta">Lemma Technologies • Jan 2024 - Jun 2025</p>
+              </div>
+              <span>AdTech + Analytics</span>
+            </div>
+            <p class="experience-summary">
+              Managed programmatic advertising operations across CTV, display, DOOH, and web
+              inventory while building an analytical view of delivery, pacing, reporting, and
+              campaign performance.
+            </p>
+            <div class="experience-columns">
+              <div>
+                <h4>Operational Scope</h4>
+                <p>Campaign delivery, pacing, inventory troubleshooting, and reporting workflows.</p>
+              </div>
+              <div>
+                <h4>Analytics Link</h4>
+                <p>KPI interpretation, SQL/Python reporting, and platform signal analysis.</p>
+              </div>
+            </div>
+            <div class="experience-points">
+              <span>Campaign analytics</span>
+              <span>Pacing optimization</span>
+              <span>Supply troubleshooting</span>
+              <span>SQL + Python reporting</span>
+              <span>Stakeholder coordination</span>
+            </div>
           </article>
+          <aside class="education-card">
+            <p class="eyebrow">Education</p>
+            <h3>M.S. Business Analytics</h3>
+            <p>Kent State University • Ohio, USA</p>
+            <p class="gpa-line">GPA: <strong>3.81</strong></p>
+            <p>
+              Portfolio focus markers across analytics, machine learning, marketing measurement,
+              BI, statistical modeling, and data systems. These show coursework emphasis, not
+              official course grades:
+            </p>
+            <div class="course-markers" aria-label="Coursework focus markers">
+              <div class="course-marker" style="--value: 95%">
+                <span>Machine Learning</span><strong>95%</strong>
+              </div>
+              <div class="course-marker" style="--value: 94%">
+                <span>Predictive Analytics</span><strong>94%</strong>
+              </div>
+              <div class="course-marker" style="--value: 92%">
+                <span>Marketing Analytics</span><strong>92%</strong>
+              </div>
+              <div class="course-marker" style="--value: 92%">
+                <span>Business Intelligence</span><strong>92%</strong>
+              </div>
+              <div class="course-marker" style="--value: 91%">
+                <span>Data Visualization & Interactive Data</span><strong>91%</strong>
+              </div>
+              <div class="course-marker" style="--value: 90%">
+                <span>Advanced Data Mining</span><strong>90%</strong>
+              </div>
+              <div class="course-marker" style="--value: 89%">
+                <span>Customer Analytics</span><strong>89%</strong>
+              </div>
+              <div class="course-marker" style="--value: 88%">
+                <span>Statistical Modeling</span><strong>88%</strong>
+              </div>
+              <div class="course-marker" style="--value: 87%">
+                <span>Database Management</span><strong>87%</strong>
+              </div>
+              <div class="course-marker" style="--value: 86%">
+                <span>Advanced Machine Learning</span><strong>86%</strong>
+              </div>
+            </div>
+          </aside>
         </div>
       </section>
 
       <section class="section featured-section">
         <div class="section-heading">
-          <p class="eyebrow">Featured Case Studies</p>
-          <h2>Business analytics work selected from GitHub</h2>
+          <p class="eyebrow">Featured Repositories</p>
+          <h2>Priority projects for analytics, BI, and data roles</h2>
         </div>
         <div class="featured-grid" id="featuredProjects"></div>
       </section>
@@ -113,15 +195,20 @@
         <div class="section-heading project-heading">
           <div>
             <p class="eyebrow">LinkedIn-Ready Portfolio</p>
-            <h2>Projects by business capability</h2>
+            <h2>Projects organized by employer-relevant capability</h2>
+            <p class="section-lede">
+              Project names open the GitHub repository. Supporting buttons provide case studies,
+              live demos, or specific evidence pages where they add context.
+            </p>
           </div>
           <div class="filters" aria-label="Project filters">
             <button class="filter-button active" type="button" data-filter="all">All</button>
-            <button class="filter-button" type="button" data-filter="Data Visualization">Dashboards</button>
+            <button class="filter-button" type="button" data-filter="BI & Dashboards">BI & Dashboards</button>
             <button class="filter-button" type="button" data-filter="Data Engineering">Data Engineering</button>
-            <button class="filter-button" type="button" data-filter="Machine Learning">ML</button>
-            <button class="filter-button" type="button" data-filter="Analytics">Analytics</button>
-            <button class="filter-button" type="button" data-filter="Product">Product</button>
+            <button class="filter-button" type="button" data-filter="ML & Predictive Analytics">ML & Predictive</button>
+            <button class="filter-button" type="button" data-filter="Business Analytics">Business Analytics</button>
+            <button class="filter-button" type="button" data-filter="Optimization">Optimization</button>
+            <button class="filter-button" type="button" data-filter="Product Strategy">Product Strategy</button>
           </div>
         </div>
         <div class="project-grid" id="projectGrid"></div>
@@ -130,50 +217,136 @@
       <section class="section skills-section" id="skills">
         <div class="section-heading">
           <p class="eyebrow">Analyst Toolkit</p>
-          <h2>Skills reflected across the portfolio</h2>
+          <h2>Skills reflected across my portfolio.</h2>
+          <p class="section-lede">
+            My MS in Business Analytics has helped me move from using tools to understanding
+            systems: how data is prepared, modeled, visualized, interpreted, and used for business
+            decisions at scale.
+          </p>
         </div>
-        <div class="skills-grid">
-          <div>
-            <h3>Business Analysis</h3>
-            <p>Problem framing, KPI design, stakeholder-ready summaries, requirements thinking, decision support</p>
-          </div>
-          <div>
-            <h3>Data Analysis</h3>
-            <p>Python, R, SQL, Jupyter, data cleaning, exploratory analysis, dashboard storytelling</p>
-          </div>
-          <div>
-            <h3>Predictive Analytics</h3>
-            <p>Classification, regression, churn analysis, risk prediction, XGBoost, Random Forest, evaluation</p>
-          </div>
-          <div>
-            <h3>Reporting & Delivery</h3>
-            <p>Dash, HTML, charts, maps, GitHub documentation, portfolio presentation, reproducible workflows</p>
-          </div>
+        <div class="skills-flow">
+          <article class="skill-card">
+            <span class="skill-step">01</span>
+            <h3>Programmatic Systems Foundation</h3>
+            <p>
+              Real campaign operations gave me the business context behind analytics: CTV, DOOH,
+              display, delivery pacing, supply paths, platform troubleshooting, and inventory
+              quality.
+            </p>
+            <div class="skill-tags">
+              <span>DV360</span>
+              <span>The Trade Desk</span>
+              <span>PubMatic</span>
+              <span>FreeWheel</span>
+              <span>Nexxen</span>
+              <span>Pacing</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-step">02</span>
+            <h3>Machine Learning & Predictive Analytics</h3>
+            <p>
+              Coursework and projects strengthened my ability to build predictive systems, compare
+              models, evaluate tradeoffs, and explain what the result means for risk, behavior, and
+              performance.
+            </p>
+            <div class="skill-tags">
+              <span>Classification</span>
+              <span>Regression</span>
+              <span>Random Forest</span>
+              <span>XGBoost</span>
+              <span>Ridge</span>
+              <span>PLS</span>
+              <span>AUC</span>
+              <span>MAE</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-step">03</span>
+            <h3>Data Mining, Features & Evaluation</h3>
+            <p>
+              I learned how raw data becomes usable signals through cleaning, feature engineering,
+              missing-value handling, scaling, dimensionality reduction, validation, and overfitting
+              control.
+            </p>
+            <div class="skill-tags">
+              <span>Feature engineering</span>
+              <span>Imputation</span>
+              <span>PCA</span>
+              <span>Validation splits</span>
+              <span>Generalization</span>
+              <span>Model evaluation</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-step">04</span>
+            <h3>Interactive BI & Visualization</h3>
+            <p>
+              Interactive Data and Data Visualization shifted my thinking from showing charts to
+              designing decision tools with filters, drill-downs, timelines, visual hierarchy, and
+              user-centered storytelling.
+            </p>
+            <div class="skill-tags">
+              <span>Dashboards</span>
+              <span>Plotly</span>
+              <span>Dash</span>
+              <span>Maps</span>
+              <span>Storytelling</span>
+              <span>Executive reporting</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-step">05</span>
+            <h3>Database & Analytics Infrastructure</h3>
+            <p>
+              Database management and project work helped me understand the backbone of analytics:
+              relational systems, SQL workflows, data organization, analytical querying, and
+              reproducible reporting pipelines.
+            </p>
+            <div class="skill-tags">
+              <span>SQL</span>
+              <span>Relational data</span>
+              <span>Data pipelines</span>
+              <span>Querying</span>
+              <span>Reporting automation</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-step">06</span>
+            <h3>AI-Driven AdTech Direction</h3>
+            <p>
+              My next direction is applying analytics and ML to advertising intelligence: contextual
+              AI, behavioral supply signals, privacy-first targeting, recommendation systems, and
+              agentic buying workflows.
+            </p>
+            <div class="skill-tags">
+              <span>Contextual AI</span>
+              <span>Signal engineering</span>
+              <span>Supply quality</span>
+              <span>Privacy-first ads</span>
+              <span>Recommendation systems</span>
+            </div>
+          </article>
         </div>
       </section>
 
       <section class="contact-section" id="contact">
         <div>
           <p class="eyebrow">Let's Connect</p>
-          <h2>Built for recruiters and hiring managers landing from LinkedIn.</h2>
-          <p>
-            Share this portfolio link in your LinkedIn Featured section, About section, resume, or
-            job applications. Visitors can scan the business value first and open GitHub when they
-            want implementation proof.
-          </p>
         </div>
         <div class="contact-actions">
-          <a class="primary-button" href="https://github.com/ShahbazShaikh96" target="_blank" rel="noreferrer">GitHub Profile</a>
-          <a class="secondary-button" href="#projects">Project Evidence</a>
+          <a class="primary-button contact-link" href="https://www.linkedin.com/in/shahbazshaikh-" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="secondary-button contact-link" href="mailto:shaks.shahbaz@gmail.com">Gmail</a>
+          <a class="secondary-button contact-link" href="https://github.com/ShahbazShaikh96" target="_blank" rel="noreferrer">GitHub</a>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <span>Built from public GitHub repository metadata.</span>
+      <span>Programmatic advertising, analytics, and AI-driven AdTech portfolio.</span>
       <span>Shahbaz Shaikh</span>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=4"></script>
   </body>
 </html>

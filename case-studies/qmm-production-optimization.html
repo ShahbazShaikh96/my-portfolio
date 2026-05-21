@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Production Mix Optimization | Shahbaz Shaikh</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <main class="case-study">
+      <a class="case-back" href="../index.html#projects">Back to portfolio</a>
+      <p class="eyebrow">Optimization Case Study</p>
+      <h1>Production Mix Profit Optimization</h1>
+      <p class="hero-lede">
+        A linear programming model for Weigelt Corporation that determines how many large, medium,
+        and small air conditioners to produce at three plants while respecting capacity, storage,
+        demand, and utilization constraints.
+      </p>
+      <div class="case-actions">
+        <a class="primary-button" href="https://github.com/ShahbazShaikh96/Quantitaive-Management-Modelling-Projects/tree/main/Assignment%204%20-%20QMM" target="_blank" rel="noreferrer">GitHub Evidence</a>
+      </div>
+
+      <section class="case-grid">
+        <article>
+          <h2>Business Question</h2>
+          <p>How should production be allocated across plants to maximize profit under operating constraints?</p>
+        </article>
+        <article>
+          <h2>Result Signal</h2>
+          <p>The R/lpSolve model identifies an optimal profit of about $707,400 and highlights Plant 2 storage as a binding constraint.</p>
+        </article>
+      </section>
+
+      <section class="case-panel">
+        <h2>Model Structure</h2>
+        <ul>
+          <li>Decision variables: product units by plant and product size.</li>
+          <li>Objective: maximize unit profit across large, medium, and small products.</li>
+          <li>Constraints: plant capacity, storage limits, product demand, and common capacity utilization.</li>
+          <li>Tooling: R, lpSolve, knitr, kableExtra.</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
