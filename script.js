@@ -55,8 +55,8 @@ const projects = [
     summary:
       "Explores a privacy-first advertising model where page context, not personal tracking, drives ad relevance.",
     businessQuestion: "Can ad targeting remain relevant without collecting user-level tracking data?",
-    decisionValue: "Connects privacy constraints to product strategy, content classification, and monetization design.",
-    tags: ["Product Analysis", "Privacy", "AI Classification", "MVP"],
+    decisionValue: "Connects privacy constraints to product strategy, contextual content signals, and monetization design.",
+    tags: ["Product Analysis", "Privacy", "Contextual Signals", "MVP"],
     featured: false,
   },
   {
@@ -128,9 +128,9 @@ const projects = [
     url: "https://github.com/ShahbazShaikh96/sshaikh7_AdvanceMachineLearning",
     image: "https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?auto=format&fit=crop&w=1200&q=80",
     summary:
-      "Advanced modeling practice focused on evaluation discipline, feature thinking, and predictive workflow design.",
-    businessQuestion: "How should complex models be evaluated before they are trusted for decision support?",
-    decisionValue: "Demonstrates practical model validation habits that matter in analyst and data roles.",
+      "Advanced machine learning coursework covering sentiment analysis, CNN transfer learning, time-series forecasting, embeddings, and efficient classification workflows.",
+    businessQuestion: "How can different deep learning approaches be compared before they are trusted for prediction or decision support?",
+    decisionValue: "Demonstrates model comparison, validation discipline, and clear documentation across multiple predictive tasks.",
     tags: ["Model Evaluation", "Advanced ML", "Validation", "Jupyter"],
     featured: false,
   },
@@ -168,14 +168,14 @@ function projectCard(project, featured = false) {
         <span>${project.language}</span>
         <span>${project.updated}</span>
       </div>
-      <h3>${project.title}</h3>
+      <h3><a href="${project.url}" target="_blank" rel="noreferrer">${project.title}</a></h3>
       <p>${project.summary}</p>
       <div class="impact-list">
         <p><strong>Business question:</strong> ${project.businessQuestion}</p>
         <p><strong>Decision value:</strong> ${project.decisionValue}</p>
       </div>
       <div class="tag-list">${project.tags.map((tag) => `<span>${tag}</span>`).join("")}</div>
-      <a class="card-link" href="${project.url}" target="_blank" rel="noreferrer">View evidence on GitHub</a>
+      <a class="card-link" href="${project.url}" target="_blank" rel="noreferrer">Open repository on GitHub</a>
     </div>
   `;
 

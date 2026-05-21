@@ -22,7 +22,7 @@ The site is written for recruiters and hiring managers who want to quickly under
 - `contextual-ad-network`
 - `sshaikh7_AdvanceMachineLearning`
 
-The portfolio intentionally avoids the H1B sponsor workbook, USCIS visa-pathways workbook, and assignment/report-generation items.
+The portfolio intentionally curates selected repositories into employer-ready project stories. Coursework repositories are included when they show relevant analytics, modeling, or dashboard-building skills.
 
 ## Run Locally
 
